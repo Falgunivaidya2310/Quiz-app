@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-size: 50px;
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
