@@ -37,7 +37,7 @@ const sendEmail = (to, url, txt) => {
     })
 
     const mailOptions = {
-        from: SENDER_EMAIL_ADDRESS,
+        from: `Falguni Vaidya <${SENDER_EMAIL_ADDRESS}>`,
         to: to,
         subject: "Tech Fest",
         html: `
